@@ -224,6 +224,19 @@ html, body {
   color: #FAFAFA;
 }
 
+.git-wrap label,
+.heroku-wrap label {
+  cursor: pointer;
+  color: white;
+  font-size: 12px;
+}
+
+.git-wrap label:hover,
+.heroku-wrap label:hover {
+  text-decoration: underline;
+}
+
+
 /**********************/
 /** Contact Section **/
 /********************/
