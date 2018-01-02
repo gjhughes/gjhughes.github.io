@@ -22,8 +22,8 @@ $(document).ready(function() {
   // Scroll to contact
   $(".projects-foot-wrapper").click(function() {
     $('html,body').animate({
-        scrollTop: $(".contact-wrapper").offset().top},
-        1000);
+      scrollTop: $(".contact-wrapper").offset().top},
+      1000);
   });
 
   $('.project-one').hover(function() {
@@ -49,6 +49,5 @@ $(document).ready(function() {
   }, function() {
     $('.hover-content-four').fadeOut();
   });
-
 
 });
