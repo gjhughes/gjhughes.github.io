@@ -56,6 +56,10 @@ html, body {
   transition: all .2s ease-in-out;
 }
 
+.icon-wrapper i {
+  color: #FAFAFA;
+}
+
 .icon-wrapper i:hover {
   transform: scale(1.2); 
 }
@@ -150,22 +154,22 @@ html, body {
 }
 
 .project-one {
-  background: url('assets/project-1.png');
+  background: url('../assets/project-1.png');
   background-size: cover;
 }
 
 .project-two {
-  background: url('assets/project-2.png') no-repeat center center;
+  background: url('../assets/project-2.png') no-repeat center center;
   background-size: cover;
 }
 
 .project-three {
-  background: url('assets/project-3.png') no-repeat center center;
+  background: url('../assets/project-3.png') no-repeat center center;
   background-size: cover;
 }
 
 .project-four {
-  background: url('assets/project-4.png') no-repeat center center;
+  background: url('../assets/project-4.png') no-repeat center center;
   background-size: cover;
 }
 
