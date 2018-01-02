@@ -11,6 +11,10 @@ html, body {
   width: 100%;
 }
 
+.nounderline {
+  text-decoration: none;
+}
+
 /********************/
 /** Splash Styles **/
 /******************/
@@ -100,10 +104,6 @@ html, body {
   padding-top: 18px;
 }
 
-.skill-icon:hover {
-  background-color: #FAFAFA;
-}
-
 .skills-foot-wrapper {
   position: absolute;
   top: 95%;
@@ -151,6 +151,10 @@ html, body {
 
 .project-wrapper h3 {
   padding-top: 10px;
+}
+
+.project-wrapper a:hover {
+  text-decoration: none;
 }
 
 .project-one {
@@ -204,9 +208,9 @@ html, body {
   padding-top: 25px;
 }
 
-/* .icon-links i:hover {
-  color: red;
-} */
+.icon-links i {
+  color: #FAFAFA;
+}
 
 .hover-content-one i {
   text-align: right;
@@ -217,6 +221,7 @@ html, body {
 .project-icon {
   margin-top: 30px;
   font-size: 40px; 
+  color: #FAFAFA;
 }
 
 /**********************/
