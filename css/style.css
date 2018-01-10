@@ -100,6 +100,10 @@ body {
   font-size: 50px;
 }
 
+.skills-wrapper label {
+  margin-top: 10px;
+}
+
 .skill-icon {
   padding-top: 18px;
 }
