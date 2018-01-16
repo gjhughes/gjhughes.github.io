@@ -65,6 +65,10 @@ body {
   color: #fafafa;
 }
 
+.foot-wrapper i {
+  animation-delay: 2s;
+}
+
 .icon-wrapper i:hover {
   transform: scale(1.2);
 }
